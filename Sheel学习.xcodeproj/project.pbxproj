@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CF546931B00590E00487986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF546921B00590E00487986 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1CF5468D1B00590E00487986 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C23AC321B00777400B7C7EC /* 替换.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "替换.sh"; sourceTree = "<group>"; };
+		1C23AC331B00788400B7C7EC /* 转义.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "转义.png"; sourceTree = "<group>"; };
+		1C23AC341B007BB600B7C7EC /* 运算符.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "运算符.sh"; sourceTree = "<group>"; };
+		1C23AC351B007FE400B7C7EC /* 关系运算符表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关系运算符表.png"; sourceTree = "<group>"; };
+		1C23AC361B00801400B7C7EC /* bool运算符.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bool运算符.png"; sourceTree = "<group>"; };
+		1C23AC371B0080C100B7C7EC /* 文件测试运算符.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文件测试运算符.png"; sourceTree = "<group>"; };
+		1C23AC381B0080E600B7C7EC /* 字符串.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "字符串.sh"; sourceTree = "<group>"; };
+		1C23AC391B00846000B7C7EC /* 数组.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "数组.sh"; sourceTree = "<group>"; };
+		1C23AC3A1B0085B200B7C7EC /* echo命令.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "echo命令.sh"; sourceTree = "<group>"; };
+		1C23AC3B1B0086E700B7C7EC /* printf命令.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "printf命令.sh"; sourceTree = "<group>"; };
+		1C23AC3C1B0088AA00B7C7EC /* if else.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "if else.sh"; sourceTree = "<group>"; };
+		1C23AC3D1B00898A00B7C7EC /* case esac.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "case esac.sh"; sourceTree = "<group>"; };
+		1C23AC3E1B008B5B00B7C7EC /* for_while_until.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = for_while_until.sh; sourceTree = "<group>"; };
+		1C23AC3F1B008D0200B7C7EC /* break_continue.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = break_continue.sh; sourceTree = "<group>"; };
+		1C23AC401B008EAC00B7C7EC /* 函数.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "函数.sh"; sourceTree = "<group>"; };
+		1C23AC411B00914200B7C7EC /* 函数参数.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "函数参数.sh"; sourceTree = "<group>"; };
+		1C23AC421B0091CB00B7C7EC /* 特殊参数.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "特殊参数.png"; sourceTree = "<group>"; };
+		1C23AC431B0091EE00B7C7EC /* 输入输出重定向.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "输入输出重定向.sh"; sourceTree = "<group>"; };
+		1C23AC461B00978B00B7C7EC /* Script包含.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script包含.sh"; sourceTree = "<group>"; };
+		1C23AC471B00979600B7C7EC /* subscript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = subscript.sh; sourceTree = "<group>"; };
+		1C23AC481B00979900B7C7EC /* main.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = main.sh; sourceTree = "<group>"; };
+		1C23AC491B00985E00B7C7EC /* 重新定下深入讲解.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重新定下深入讲解.png"; sourceTree = "<group>"; };
+		1C23AC4B1B009F4C00B7C7EC /* package.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = package.sh; sourceTree = "<group>"; };
+		1C79C94A1B00A53700EF6417 /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
+		1CF5468F1B00590E00487986 /* Sheel学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sheel学习"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF546921B00590E00487986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CF546991B00594300487986 /* 简介.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "简介.sh"; sourceTree = "<group>"; };
+		1CF5469A1B005AC800487986 /* firstSheel脚本.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "firstSheel脚本.sh"; sourceTree = "<group>"; };
+		1CF5469B1B005D8F00487986 /* 变量.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "变量.sh"; sourceTree = "<group>"; };
+		1CF5469C1B00610800487986 /* 特殊变量.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "特殊变量.sh"; sourceTree = "<group>"; };
+		1CF5469D1B00617500487986 /* 特殊变量.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "特殊变量.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CF5468C1B00590E00487986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C23AC451B00978B00B7C7EC /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1C23AC461B00978B00B7C7EC /* Script包含.sh */,
+				1C23AC471B00979600B7C7EC /* subscript.sh */,
+				1C23AC481B00979900B7C7EC /* main.sh */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		1CF546861B00590E00487986 = {
+			isa = PBXGroup;
+			children = (
+				1C23AC451B00978B00B7C7EC /* include */,
+				1CF546911B00590E00487986 /* Sheel学习 */,
+				1CF546901B00590E00487986 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CF546901B00590E00487986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CF5468F1B00590E00487986 /* Sheel学习 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CF546911B00590E00487986 /* Sheel学习 */ = {
+			isa = PBXGroup;
+			children = (
+				1CF546921B00590E00487986 /* main.m */,
+				1CF546991B00594300487986 /* 简介.sh */,
+				1CF5469A1B005AC800487986 /* firstSheel脚本.sh */,
+				1CF5469B1B005D8F00487986 /* 变量.sh */,
+				1CF5469C1B00610800487986 /* 特殊变量.sh */,
+				1CF5469D1B00617500487986 /* 特殊变量.png */,
+				1C23AC321B00777400B7C7EC /* 替换.sh */,
+				1C23AC341B007BB600B7C7EC /* 运算符.sh */,
+				1C23AC361B00801400B7C7EC /* bool运算符.png */,
+				1C23AC351B007FE400B7C7EC /* 关系运算符表.png */,
+				1C23AC331B00788400B7C7EC /* 转义.png */,
+				1C23AC371B0080C100B7C7EC /* 文件测试运算符.png */,
+				1C23AC381B0080E600B7C7EC /* 字符串.sh */,
+				1C23AC391B00846000B7C7EC /* 数组.sh */,
+				1C23AC3A1B0085B200B7C7EC /* echo命令.sh */,
+				1C23AC401B008EAC00B7C7EC /* 函数.sh */,
+				1C23AC411B00914200B7C7EC /* 函数参数.sh */,
+				1C23AC431B0091EE00B7C7EC /* 输入输出重定向.sh */,
+				1C23AC491B00985E00B7C7EC /* 重新定下深入讲解.png */,
+				1C23AC3B1B0086E700B7C7EC /* printf命令.sh */,
+				1C23AC3C1B0088AA00B7C7EC /* if else.sh */,
+				1C23AC3D1B00898A00B7C7EC /* case esac.sh */,
+				1C23AC3E1B008B5B00B7C7EC /* for_while_until.sh */,
+				1C23AC3F1B008D0200B7C7EC /* break_continue.sh */,
+				1C23AC421B0091CB00B7C7EC /* 特殊参数.png */,
+				1C23AC4B1B009F4C00B7C7EC /* package.sh */,
+				1C79C94A1B00A53700EF6417 /* test.sh */,
+			);
+			path = "Sheel学习";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CF5468E1B00590E00487986 /* Sheel学习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF546961B00590E00487986 /* Build configuration list for PBXNativeTarget "Sheel学习" */;
+			buildPhases = (
+				1CF5468B1B00590E00487986 /* Sources */,
+				1CF5468C1B00590E00487986 /* Frameworks */,
+				1CF5468D1B00590E00487986 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sheel学习";
+			productName = "Sheel学习";
+			productReference = 1CF5468F1B00590E00487986 /* Sheel学习 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CF546871B00590E00487986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Cnepay;
+				TargetAttributes = {
+					1CF5468E1B00590E00487986 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 1CF5468A1B00590E00487986 /* Build configuration list for PBXProject "Sheel学习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1CF546861B00590E00487986;
+			productRefGroup = 1CF546901B00590E00487986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CF5468E1B00590E00487986 /* Sheel学习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CF5468B1B00590E00487986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF546931B00590E00487986 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CF546941B00590E00487986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1CF546951B00590E00487986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1CF546971B00590E00487986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CF546981B00590E00487986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CF5468A1B00590E00487986 /* Build configuration list for PBXProject "Sheel学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF546941B00590E00487986 /* Debug */,
+				1CF546951B00590E00487986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CF546961B00590E00487986 /* Build configuration list for PBXNativeTarget "Sheel学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF546971B00590E00487986 /* Debug */,
+				1CF546981B00590E00487986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CF546871B00590E00487986 /* Project object */;
+}
